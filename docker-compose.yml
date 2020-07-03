@@ -1,0 +1,12 @@
+version: "3"
+services:
+  server:
+    container_name: AI_ChatBot_API
+    build: .
+    ports:
+      - "5000:5000"
+    restart: always
+    volumes:
+      - ./:/usr/src/app/
+    command: >
+      sh -c "python init_config.py && yoyo apply && python load_initial_data.py && python server.py"

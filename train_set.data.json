@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "text": "Hello",
+      "entities": [
+        {
+          "entity": "intent",
+          "value": "\"Welcome to BTF ChatBot\""
+        }
+      ]
+    },
+    {
+      "text": "สวัสดี",
+      "entities": [
+        {
+          "entity": "intent",
+          "value": "\"ยินดีต้องรับสู่ แบ็คทูเดอะฟิวเจอร์ แชทบอท\""
+        }
+      ]
+    }
+  ]
+}
